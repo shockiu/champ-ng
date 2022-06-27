@@ -1,0 +1,46 @@
+<div class="form-container">
+    <div class="form-content">
+        <h3 class="title-form">¡Bienvenido!</h3>
+        <span class="subtitle-redirect">
+            <strong>¡Crea una cuenta para poder competir!</strong>
+        </span>
+        <span class="subtitle-redirect">
+            ¿Ya tienes cuenta? 
+            <strong (click)="redirect()" class="redirect-link">
+                ¡Inicia sesión!
+            </strong>
+        </span>
+        
+        <form [formGroup]="registerForm" (ngSubmit)="register()" class="group-form">
+            <span class="p-float-label input-container">
+                <input type="text" pInputText 
+                       formControlName="email"
+                       class="input-w-100"> 
+                <label for="float-input">Email</label>
+            </span>
+            <span class="p-float-label input-container">
+                <input type="text" pInputText 
+                       formControlName="nickname"
+                       class="input-w-100"> 
+                <label for="float-input">Nickname</label>
+            </span>
+            
+            <span class="p-float-label input-container">
+                <input type="password" pInputText 
+                       formControlName="password"
+                       class="input-w-100"> 
+                <label for="float-input">Password</label>
+            </span>
+            <div>
+                <button type="submit"
+                        pButton 
+                        pRipple
+                        label="Iniciar sesión"
+                        class="btn"
+                >
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+

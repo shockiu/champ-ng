@@ -1,0 +1,24 @@
+
+/*** Neutral ***/
+$bg-theme-switcher:  linear-gradient(to left top, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+/**** Light Theme ****/
+$back-ground-lg: hsl(0, 0%, 100%);
+$back-ground-top-lg: hsl(225, 100%, 98%);
+$card-back-ground-lg: hsl(228, 50%, 96%);
+$card-background-hover-lg: hsl(231, 19%, 86%);
+$text-color-primary-lg:hsl(228, 12%, 44%);
+$text-color-sencondary-lg: hsl(230, 17%, 14%);
+$circle-color-lg: hsl(225, 100%, 98%);
+
+/**** Dark Theme ****/
+$back-ground-dk: hsl(230, 17%, 14%);
+$back-ground-top-dk: hsl(232, 19%, 15%);
+$card-back-ground-dk: hsl(228, 28%, 20%);
+$card-background-hover-dk: hsl(233, 19%, 26%);
+$text-color-primary-dk:hsl(228, 34%, 66%);
+$text-color-sencondary-dk: hsl(0, 0%, 100%);
+$circle-color-dk: hsl(232, 19%, 15%);
+
+/*** FONT FAMILY***/
+$font-family: 'Inter', sans-serif;

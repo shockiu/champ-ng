@@ -27,7 +27,9 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    console.log(this.loginForm.value);
+    if ( this.loginForm.valid ) {
+      this.router.navigate(['/players']);
+    }
   }
 
   redirect() {

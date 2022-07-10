@@ -29,7 +29,9 @@ export class RegisterComponent implements OnInit {
   }
 
   register() {
-    console.log(this.registerForm.value);
+    if ( this.registerForm.valid ) {
+      this.router.navigate(['/']);
+    }
   }
 
   redirect() {

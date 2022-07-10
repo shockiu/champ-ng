@@ -4,13 +4,15 @@ import { RouterModule } from '@angular/router';
 import { PrimeNgModule } from './primeNgModules';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
@@ -21,6 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
     PrimeNgModule,
     NavbarComponent,
     FooterComponent,
+    CardComponent,
     RouterModule
   ]
 })

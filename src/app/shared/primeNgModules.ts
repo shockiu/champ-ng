@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
+import { SkeletonModule } from 'primeng/skeleton';
+import { CardModule } from 'primeng/card';
+
 
 
 const PrimeNgModules = [
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    SkeletonModule,
+    CardModule
 ];
 
 @NgModule({
